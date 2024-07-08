@@ -1,0 +1,54 @@
+name: bisim_app
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0-266.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #KeyStorage
+  flutter_dotenv: ^5.1.0
+  #Analysis
+  very_good_analysis: ^6.0.0 
+  #State Management
+  flutter_riverpod: ^2.5.1
+  #Code Generation
+  flutter_gen_runner: ^5.6.0
+  #Json
+  json_annotation: ^4.9.0 
+  #Http
+  dio: ^5.5.0+1
+
+  cupertino_icons: ^1.0.8
+  #Map
+  google_maps_flutter: ^2.7.0
+  #Location
+  geolocator: ^12.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+  #Code Generation
+  build_runner: ^2.4.11
+  #Json Serialization
+  json_serializable: ^6.8.0
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/icon/
+    - assets/maptheme/
+    - .env
+
