@@ -46,9 +46,16 @@ flutter:
 
   uses-material-design: true
 
-  # To add assets to your application, add an assets section, like this:
   assets:
     - assets/icon/
     - assets/maptheme/
     - .env
 
+flutter_gen:
+  output: lib/product/generation/
+  assets:
+    enabled: true
+
+  colors:
+    inputs: 
+      - assets/color/color.xml
